@@ -8,18 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		1C836D312033366500E2BB3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C836D302033366500E2BB3B /* AppDelegate.swift */; };
-		1C836D332033366500E2BB3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C836D322033366500E2BB3B /* ViewController.swift */; };
 		1C836D362033366500E2BB3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C836D342033366500E2BB3B /* Main.storyboard */; };
 		1C836D382033366500E2BB3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C836D372033366500E2BB3B /* Assets.xcassets */; };
 		1C836D3B2033366500E2BB3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C836D392033366500E2BB3B /* LaunchScreen.storyboard */; };
 		1C836D4620333CED00E2BB3B /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C836D4520333CED00E2BB3B /* SWRevealViewController.m */; };
+		1C836D4B203342C200E2BB3B /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C836D4A203342C200E2BB3B /* ChatVC.swift */; };
+		1C836D4D203342D400E2BB3B /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C836D4C203342D400E2BB3B /* ChannelVC.swift */; };
 		277499E9E117F50D5B9572DF /* Pods_Chatlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BB433E085180833B1F476B3 /* Pods_Chatlytics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1C836D2D2033366500E2BB3B /* Chatlytics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chatlytics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C836D302033366500E2BB3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1C836D322033366500E2BB3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1C836D352033366500E2BB3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1C836D372033366500E2BB3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C836D3A2033366500E2BB3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -27,6 +27,8 @@
 		1C836D4320333CEA00E2BB3B /* Chatlytics-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Chatlytics-Bridging-Header.h"; sourceTree = "<group>"; };
 		1C836D4420333CEC00E2BB3B /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		1C836D4520333CED00E2BB3B /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		1C836D4A203342C200E2BB3B /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		1C836D4C203342D400E2BB3B /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
 		9BB433E085180833B1F476B3 /* Pods_Chatlytics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chatlytics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3D5CF35BA5D81A7388A2FA6 /* Pods-Chatlytics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chatlytics.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Chatlytics/Pods-Chatlytics.debug.xcconfig"; sourceTree = "<group>"; };
 		DA9EF29DCBB0B10F029B881B /* Pods-Chatlytics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chatlytics.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chatlytics/Pods-Chatlytics.release.xcconfig"; sourceTree = "<group>"; };
@@ -65,9 +67,11 @@
 		1C836D2F2033366500E2BB3B /* Chatlytics */ = {
 			isa = PBXGroup;
 			children = (
+				1C836D472033424F00E2BB3B /* Model */,
+				1C836D482033427000E2BB3B /* View */,
+				1C836D492033427500E2BB3B /* Controller */,
 				1C836D4220333CCB00E2BB3B /* Supporting Files */,
 				1C836D302033366500E2BB3B /* AppDelegate.swift */,
-				1C836D322033366500E2BB3B /* ViewController.swift */,
 				1C836D342033366500E2BB3B /* Main.storyboard */,
 				1C836D372033366500E2BB3B /* Assets.xcassets */,
 				1C836D392033366500E2BB3B /* LaunchScreen.storyboard */,
@@ -84,6 +88,29 @@
 				1C836D4320333CEA00E2BB3B /* Chatlytics-Bridging-Header.h */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1C836D472033424F00E2BB3B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1C836D482033427000E2BB3B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1C836D492033427500E2BB3B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1C836D4A203342C200E2BB3B /* ChatVC.swift */,
+				1C836D4C203342D400E2BB3B /* ChannelVC.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		79CFA74507158273BF3D9B06 /* Pods */ = {
@@ -239,7 +266,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C836D332033366500E2BB3B /* ViewController.swift in Sources */,
+				1C836D4D203342D400E2BB3B /* ChannelVC.swift in Sources */,
+				1C836D4B203342C200E2BB3B /* ChatVC.swift in Sources */,
 				1C836D312033366500E2BB3B /* AppDelegate.swift in Sources */,
 				1C836D4620333CED00E2BB3B /* SWRevealViewController.m in Sources */,
 			);
