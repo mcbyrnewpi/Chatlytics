@@ -14,6 +14,7 @@
 		1C836D4620333CED00E2BB3B /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C836D4520333CED00E2BB3B /* SWRevealViewController.m */; };
 		1C836D4B203342C200E2BB3B /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C836D4A203342C200E2BB3B /* ChatVC.swift */; };
 		1C836D4D203342D400E2BB3B /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C836D4C203342D400E2BB3B /* ChannelVC.swift */; };
+		1C836D4F2033647700E2BB3B /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C836D4E2033647700E2BB3B /* GradientView.swift */; };
 		277499E9E117F50D5B9572DF /* Pods_Chatlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BB433E085180833B1F476B3 /* Pods_Chatlytics.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		1C836D4520333CED00E2BB3B /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		1C836D4A203342C200E2BB3B /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		1C836D4C203342D400E2BB3B /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
+		1C836D4E2033647700E2BB3B /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		9BB433E085180833B1F476B3 /* Pods_Chatlytics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chatlytics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3D5CF35BA5D81A7388A2FA6 /* Pods-Chatlytics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chatlytics.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Chatlytics/Pods-Chatlytics.debug.xcconfig"; sourceTree = "<group>"; };
 		DA9EF29DCBB0B10F029B881B /* Pods-Chatlytics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chatlytics.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chatlytics/Pods-Chatlytics.release.xcconfig"; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 		1C836D482033427000E2BB3B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				1C836D4E2033647700E2BB3B /* GradientView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 			files = (
 				1C836D4D203342D400E2BB3B /* ChannelVC.swift in Sources */,
 				1C836D4B203342C200E2BB3B /* ChatVC.swift in Sources */,
+				1C836D4F2033647700E2BB3B /* GradientView.swift in Sources */,
 				1C836D312033366500E2BB3B /* AppDelegate.swift in Sources */,
 				1C836D4620333CED00E2BB3B /* SWRevealViewController.m in Sources */,
 			);
