@@ -1,0 +1,6 @@
+framework module Pods_Chatlytics {
+  umbrella header "Pods-Chatlytics-umbrella.h"
+
+  export *
+  module * { export * }
+}
