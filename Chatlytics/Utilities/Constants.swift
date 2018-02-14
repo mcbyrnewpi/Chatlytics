@@ -8,8 +8,23 @@
 
 import Foundation
 
+// typealias is just renaming a Type, saying completion handler is of this type
+// what this type is: closure type that can let us see if web request is successful or not
+typealias CompletionHandler = (_ Success: Bool) -> ()
+
+// URL Constants
+let BASE_URL = "https://chatlyticsdev.herokuapp.com/v1/" // got this from Heroku
+let URL_REGISTER = "\(BASE_URL)account/register"
+
+
 // Segues
 
 let TO_LOGIN = "toLogin"
 let TO_CREATE_ACCOUNT = "toCreateAccount"
 let UNWIND = "unwindToChannel"
+
+
+// User Defaults
+let TOKEN_KEY = "token"
+let LOGGED_IN_KEY = "loggedIn"
+let USER_EMAIL = "userEmail"

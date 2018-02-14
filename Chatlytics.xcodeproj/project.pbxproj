@@ -18,6 +18,7 @@
 		1C836D522033727300E2BB3B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C836D512033727300E2BB3B /* Constants.swift */; };
 		1C836D542033789900E2BB3B /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C836D532033789900E2BB3B /* LoginVC.swift */; };
 		1C836D56203386C200E2BB3B /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C836D55203386C200E2BB3B /* CreateAccountVC.swift */; };
+		1C836D592034DB9E00E2BB3B /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C836D582034DB9D00E2BB3B /* AuthService.swift */; };
 		277499E9E117F50D5B9572DF /* Pods_Chatlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BB433E085180833B1F476B3 /* Pods_Chatlytics.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,7 @@
 		1C836D512033727300E2BB3B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		1C836D532033789900E2BB3B /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		1C836D55203386C200E2BB3B /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
+		1C836D582034DB9D00E2BB3B /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		9BB433E085180833B1F476B3 /* Pods_Chatlytics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chatlytics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3D5CF35BA5D81A7388A2FA6 /* Pods-Chatlytics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chatlytics.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Chatlytics/Pods-Chatlytics.debug.xcconfig"; sourceTree = "<group>"; };
 		DA9EF29DCBB0B10F029B881B /* Pods-Chatlytics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chatlytics.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chatlytics/Pods-Chatlytics.release.xcconfig"; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 		1C836D2F2033366500E2BB3B /* Chatlytics */ = {
 			isa = PBXGroup;
 			children = (
+				1C836D572034DB8C00E2BB3B /* Services */,
 				1C836D502033725800E2BB3B /* Utilities */,
 				1C836D472033424F00E2BB3B /* Model */,
 				1C836D482033427000E2BB3B /* View */,
@@ -131,6 +134,14 @@
 				1C836D512033727300E2BB3B /* Constants.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		1C836D572034DB8C00E2BB3B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1C836D582034DB9D00E2BB3B /* AuthService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		79CFA74507158273BF3D9B06 /* Pods */ = {
@@ -289,6 +300,7 @@
 				1C836D4D203342D400E2BB3B /* ChannelVC.swift in Sources */,
 				1C836D4B203342C200E2BB3B /* ChatVC.swift in Sources */,
 				1C836D56203386C200E2BB3B /* CreateAccountVC.swift in Sources */,
+				1C836D592034DB9E00E2BB3B /* AuthService.swift in Sources */,
 				1C836D542033789900E2BB3B /* LoginVC.swift in Sources */,
 				1C836D4F2033647700E2BB3B /* GradientView.swift in Sources */,
 				1C836D312033366500E2BB3B /* AppDelegate.swift in Sources */,
