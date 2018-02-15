@@ -44,8 +44,8 @@ class AuthService {
     
     
     // Using Alamofire for the web request
-    // need to know when this process is complete
-    // define a CompletionHandler in Constants so we can use it in func
+    // need to know when this process is complete so we
+    // define a CompletionHandler in Constants that we can use here
     func registerUser(email: String, password: String, completion: @escaping CompletionHandler) {
         
         let lowerCaseEmail = email.lowercased()
