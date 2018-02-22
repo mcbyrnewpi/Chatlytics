@@ -23,6 +23,7 @@
 		1C836D5D2037814A00E2BB3B /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C836D5C2037814A00E2BB3B /* UserDataService.swift */; };
 		1C836D5F203DE53B00E2BB3B /* AvatarPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C836D5E203DE53B00E2BB3B /* AvatarPickerVC.swift */; };
 		1C836D61203DE96800E2BB3B /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C836D60203DE96800E2BB3B /* AvatarCell.swift */; };
+		1C836D63203F30DD00E2BB3B /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C836D62203F30DD00E2BB3B /* CircleImage.swift */; };
 		277499E9E117F50D5B9572DF /* Pods_Chatlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BB433E085180833B1F476B3 /* Pods_Chatlytics.framework */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +48,7 @@
 		1C836D5C2037814A00E2BB3B /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
 		1C836D5E203DE53B00E2BB3B /* AvatarPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerVC.swift; sourceTree = "<group>"; };
 		1C836D60203DE96800E2BB3B /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
+		1C836D62203F30DD00E2BB3B /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		9BB433E085180833B1F476B3 /* Pods_Chatlytics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chatlytics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3D5CF35BA5D81A7388A2FA6 /* Pods-Chatlytics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chatlytics.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Chatlytics/Pods-Chatlytics.debug.xcconfig"; sourceTree = "<group>"; };
 		DA9EF29DCBB0B10F029B881B /* Pods-Chatlytics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chatlytics.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chatlytics/Pods-Chatlytics.release.xcconfig"; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 				1C836D4E2033647700E2BB3B /* GradientView.swift */,
 				1C836D5A20362CD800E2BB3B /* RoundedButton.swift */,
 				1C836D60203DE96800E2BB3B /* AvatarCell.swift */,
+				1C836D62203F30DD00E2BB3B /* CircleImage.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -312,6 +315,7 @@
 				1C836D4D203342D400E2BB3B /* ChannelVC.swift in Sources */,
 				1C836D5F203DE53B00E2BB3B /* AvatarPickerVC.swift in Sources */,
 				1C836D5B20362CD800E2BB3B /* RoundedButton.swift in Sources */,
+				1C836D63203F30DD00E2BB3B /* CircleImage.swift in Sources */,
 				1C836D4B203342C200E2BB3B /* ChatVC.swift in Sources */,
 				1C836D5D2037814A00E2BB3B /* UserDataService.swift in Sources */,
 				1C836D56203386C200E2BB3B /* CreateAccountVC.swift in Sources */,
