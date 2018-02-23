@@ -24,6 +24,8 @@
 		1C836D5F203DE53B00E2BB3B /* AvatarPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C836D5E203DE53B00E2BB3B /* AvatarPickerVC.swift */; };
 		1C836D61203DE96800E2BB3B /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C836D60203DE96800E2BB3B /* AvatarCell.swift */; };
 		1C836D63203F30DD00E2BB3B /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C836D62203F30DD00E2BB3B /* CircleImage.swift */; };
+		1C836D6620407C5500E2BB3B /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C836D6420407C5500E2BB3B /* ProfileVC.swift */; };
+		1C836D6720407C5500E2BB3B /* ProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C836D6520407C5500E2BB3B /* ProfileVC.xib */; };
 		277499E9E117F50D5B9572DF /* Pods_Chatlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BB433E085180833B1F476B3 /* Pods_Chatlytics.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +51,8 @@
 		1C836D5E203DE53B00E2BB3B /* AvatarPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerVC.swift; sourceTree = "<group>"; };
 		1C836D60203DE96800E2BB3B /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
 		1C836D62203F30DD00E2BB3B /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		1C836D6420407C5500E2BB3B /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		1C836D6520407C5500E2BB3B /* ProfileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileVC.xib; sourceTree = "<group>"; };
 		9BB433E085180833B1F476B3 /* Pods_Chatlytics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chatlytics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3D5CF35BA5D81A7388A2FA6 /* Pods-Chatlytics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chatlytics.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Chatlytics/Pods-Chatlytics.debug.xcconfig"; sourceTree = "<group>"; };
 		DA9EF29DCBB0B10F029B881B /* Pods-Chatlytics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chatlytics.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chatlytics/Pods-Chatlytics.release.xcconfig"; sourceTree = "<group>"; };
@@ -87,6 +91,7 @@
 		1C836D2F2033366500E2BB3B /* Chatlytics */ = {
 			isa = PBXGroup;
 			children = (
+				1C836D6820407C8600E2BB3B /* XIBs */,
 				1C836D572034DB8C00E2BB3B /* Services */,
 				1C836D502033725800E2BB3B /* Utilities */,
 				1C836D472033424F00E2BB3B /* Model */,
@@ -138,6 +143,7 @@
 				1C836D532033789900E2BB3B /* LoginVC.swift */,
 				1C836D55203386C200E2BB3B /* CreateAccountVC.swift */,
 				1C836D5E203DE53B00E2BB3B /* AvatarPickerVC.swift */,
+				1C836D6420407C5500E2BB3B /* ProfileVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -157,6 +163,14 @@
 				1C836D5C2037814A00E2BB3B /* UserDataService.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		1C836D6820407C8600E2BB3B /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				1C836D6520407C5500E2BB3B /* ProfileVC.xib */,
+			);
+			path = XIBs;
 			sourceTree = "<group>";
 		};
 		79CFA74507158273BF3D9B06 /* Pods */ = {
@@ -239,6 +253,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C836D6720407C5500E2BB3B /* ProfileVC.xib in Resources */,
 				1C836D3B2033366500E2BB3B /* LaunchScreen.storyboard in Resources */,
 				1C836D382033366500E2BB3B /* Assets.xcassets in Resources */,
 				1C836D362033366500E2BB3B /* Main.storyboard in Resources */,
@@ -312,6 +327,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C836D6620407C5500E2BB3B /* ProfileVC.swift in Sources */,
 				1C836D4D203342D400E2BB3B /* ChannelVC.swift in Sources */,
 				1C836D5F203DE53B00E2BB3B /* AvatarPickerVC.swift in Sources */,
 				1C836D5B20362CD800E2BB3B /* RoundedButton.swift in Sources */,
