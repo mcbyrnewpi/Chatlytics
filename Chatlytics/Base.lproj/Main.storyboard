@@ -137,7 +137,7 @@
                                 <rect key="frame" x="0.0" y="125" width="375" height="427"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="5Um-Un-KyJ">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="channelCell" id="5Um-Un-KyJ" customClass="ChannelCell" customModule="Chatlytics" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="5Um-Un-KyJ" id="Uoy-Or-FCC">
@@ -157,6 +157,9 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <outlet property="channelName" destination="DZw-Sp-PtL" id="Nyf-P1-cdT"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -182,6 +185,7 @@
                     </view>
                     <connections>
                         <outlet property="loginBtn" destination="Z57-iT-D2Y" id="zTt-O7-vSs"/>
+                        <outlet property="tableView" destination="Z2P-t7-dxT" id="OO5-lu-rTZ"/>
                         <outlet property="userImg" destination="JFR-3E-6iS" id="7Cv-hV-VwI"/>
                         <segue destination="pmw-oL-I18" kind="show" identifier="toLogin" id="WVn-0R-S9T"/>
                     </connections>
