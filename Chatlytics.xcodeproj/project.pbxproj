@@ -31,6 +31,7 @@
 		1C836D6E2045E1BF00E2BB3B /* ChannelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C836D6D2045E1BF00E2BB3B /* ChannelCell.swift */; };
 		1C836D712045EAC000E2BB3B /* AddChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C836D6F2045EAC000E2BB3B /* AddChannelVC.swift */; };
 		1C836D722045EAC000E2BB3B /* AddChannelVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C836D702045EAC000E2BB3B /* AddChannelVC.xib */; };
+		1C836D742047141E00E2BB3B /* SocketService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C836D732047141E00E2BB3B /* SocketService.swift */; };
 		277499E9E117F50D5B9572DF /* Pods_Chatlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BB433E085180833B1F476B3 /* Pods_Chatlytics.framework */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +64,7 @@
 		1C836D6D2045E1BF00E2BB3B /* ChannelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelCell.swift; sourceTree = "<group>"; };
 		1C836D6F2045EAC000E2BB3B /* AddChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddChannelVC.swift; sourceTree = "<group>"; };
 		1C836D702045EAC000E2BB3B /* AddChannelVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddChannelVC.xib; sourceTree = "<group>"; };
+		1C836D732047141E00E2BB3B /* SocketService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketService.swift; sourceTree = "<group>"; };
 		9BB433E085180833B1F476B3 /* Pods_Chatlytics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chatlytics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3D5CF35BA5D81A7388A2FA6 /* Pods-Chatlytics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chatlytics.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Chatlytics/Pods-Chatlytics.debug.xcconfig"; sourceTree = "<group>"; };
 		DA9EF29DCBB0B10F029B881B /* Pods-Chatlytics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chatlytics.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chatlytics/Pods-Chatlytics.release.xcconfig"; sourceTree = "<group>"; };
@@ -174,6 +176,7 @@
 			children = (
 				1C836D582034DB9D00E2BB3B /* AuthService.swift */,
 				1C836D692045D95E00E2BB3B /* MessageService.swift */,
+				1C836D732047141E00E2BB3B /* SocketService.swift */,
 				1C836D5C2037814A00E2BB3B /* UserDataService.swift */,
 			);
 			path = Services;
@@ -343,6 +346,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C836D742047141E00E2BB3B /* SocketService.swift in Sources */,
 				1C836D6620407C5500E2BB3B /* ProfileVC.swift in Sources */,
 				1C836D6E2045E1BF00E2BB3B /* ChannelCell.swift in Sources */,
 				1C836D4D203342D400E2BB3B /* ChannelVC.swift in Sources */,
