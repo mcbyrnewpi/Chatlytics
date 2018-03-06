@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1C22A71B204F258200CA2553 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C22A71A204F258200CA2553 /* Message.swift */; };
+		1C22A71D204F309700CA2553 /* KeyboardBoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C22A71C204F309700CA2553 /* KeyboardBoundView.swift */; };
 		1C836D312033366500E2BB3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C836D302033366500E2BB3B /* AppDelegate.swift */; };
 		1C836D362033366500E2BB3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C836D342033366500E2BB3B /* Main.storyboard */; };
 		1C836D382033366500E2BB3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C836D372033366500E2BB3B /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		1C22A71A204F258200CA2553 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		1C22A71C204F309700CA2553 /* KeyboardBoundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardBoundView.swift; sourceTree = "<group>"; };
 		1C836D2D2033366500E2BB3B /* Chatlytics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chatlytics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C836D302033366500E2BB3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1C836D352033366500E2BB3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 				1C836D62203F30DD00E2BB3B /* CircleImage.swift */,
 				1C836D4E2033647700E2BB3B /* GradientView.swift */,
 				1C836D5A20362CD800E2BB3B /* RoundedButton.swift */,
+				1C22A71C204F309700CA2553 /* KeyboardBoundView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -349,6 +352,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C22A71D204F309700CA2553 /* KeyboardBoundView.swift in Sources */,
 				1C836D742047141E00E2BB3B /* SocketService.swift in Sources */,
 				1C836D6620407C5500E2BB3B /* ProfileVC.swift in Sources */,
 				1C836D6E2045E1BF00E2BB3B /* ChannelCell.swift in Sources */,

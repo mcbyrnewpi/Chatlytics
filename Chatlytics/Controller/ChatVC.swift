@@ -13,11 +13,17 @@ class ChatVC: UIViewController {
     // Outlets
     @IBOutlet weak var menuBtn: UIButton!
     @IBOutlet weak var channelNameLbl: UILabel!
+    @IBOutlet weak var messageTextBox: UITextField!
     
     
-        
+    
+    // Overrides
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.bindToKeyboard()
+        let tap = UITapGestureRecognizer(target: self, action: #selector(ChatVC.handleTap))
+        view.addGestureRecognizer(tap)
         menuBtn.addTarget(self.revealViewController(), action: #selector(SWRevealViewController.revealToggle(_:)), for: .touchUpInside)
         self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
         self.view.addGestureRecognizer(self.revealViewController().tapGestureRecognizer())
@@ -30,9 +36,29 @@ class ChatVC: UIViewController {
                 NotificationCenter.default.post(name: NOTIF_USER_DATA_DID_CHANGE, object: nil)
             })
         }
-        
-
     }
+    
+    
+    
+    // Actions
+    
+    @IBAction func sendMessagePressed(_ sender: Any) {
+        if AuthService.instance.isLoggedIn {
+            guard let channelId = MessageService.instance.selectedChannel?.id else { return }
+            guard let message = messageTextBox.text else { return }
+            
+            SocketService.instance.addMessage(messageBody: message, userId: UserDataService.instance.id, channelId: channelId, completion: { (success) in
+                if success {
+                    self.messageTextBox.text = ""
+                    self.messageTextBox.resignFirstResponder()
+                }
+            })
+        }
+    }
+    
+    
+    
+    // Functions
     
     @objc func userDataDidChange(_ notif: Notification) {
         if AuthService.instance.isLoggedIn {
@@ -45,6 +71,10 @@ class ChatVC: UIViewController {
     
     @objc func channelsSelected(_ notif: Notification) {
         updateWithChannel()
+    }
+    
+    @objc func handleTap() {
+        view.endEditing(true)
     }
     
     func updateWithChannel() {
