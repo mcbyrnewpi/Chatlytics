@@ -143,8 +143,11 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="messageBoxEditing:" destination="1e4-R5-QOe" eventType="editingChanged" id="jjo-Li-qBP"/>
+                                </connections>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uFe-xB-Pgc">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uFe-xB-Pgc">
                                 <rect key="frame" x="337" y="632" width="30" height="30"/>
                                 <state key="normal" image="send"/>
                                 <connections>
@@ -160,6 +163,7 @@
                             <constraint firstItem="rIj-vM-C6S" firstAttribute="trailing" secondItem="nxR-hH-hiZ" secondAttribute="trailing" id="Y54-tn-B5B"/>
                             <constraint firstItem="udH-0z-VYv" firstAttribute="trailing" secondItem="nxR-hH-hiZ" secondAttribute="trailing" id="ZpU-AG-tyo"/>
                             <constraint firstItem="udH-0z-VYv" firstAttribute="leading" secondItem="nxR-hH-hiZ" secondAttribute="leading" id="aPD-Wp-eiB"/>
+                            <constraint firstItem="Mx6-0l-WXe" firstAttribute="trailing" secondItem="uFe-xB-Pgc" secondAttribute="trailing" constant="8" id="bqX-zM-EEf"/>
                             <constraint firstItem="Mx6-0l-WXe" firstAttribute="trailing" secondItem="UEw-WE-K2N" secondAttribute="trailing" id="gPU-tP-B49"/>
                             <constraint firstItem="UEw-WE-K2N" firstAttribute="top" secondItem="rIj-vM-C6S" secondAttribute="bottom" constant="25" id="paI-qe-3mN"/>
                             <constraint firstItem="rIj-vM-C6S" firstAttribute="leading" secondItem="nxR-hH-hiZ" secondAttribute="leading" id="puL-go-9Xo"/>
@@ -173,6 +177,7 @@
                         <outlet property="channelNameLbl" destination="itf-Pp-yeT" id="HeW-EM-CAr"/>
                         <outlet property="menuBtn" destination="YTj-am-tPh" id="SsQ-Cn-byn"/>
                         <outlet property="messageTextBox" destination="UEw-WE-K2N" id="MSU-Te-5oc"/>
+                        <outlet property="sendBtn" destination="uFe-xB-Pgc" id="NKR-n6-N9m"/>
                         <outlet property="tableView" destination="rIj-vM-C6S" id="cyj-O8-6SS"/>
                     </connections>
                 </viewController>
