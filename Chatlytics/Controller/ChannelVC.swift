@@ -14,6 +14,7 @@ class ChannelVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     @IBOutlet weak var loginBtn: UIButton!
     @IBOutlet weak var userImg: CircleImage!
     @IBOutlet weak var tableView: UITableView!
+    @IBAction func prepareForUnwind(segue: UIStoryboardSegue) {}
     
     
     
@@ -53,7 +54,7 @@ class ChannelVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         }
     }
     
-    @IBAction func prepareForUnwind(segue: UIStoryboardSegue) {}
+
     
     @IBAction func addChannelPressed(_ sender: Any) {
         if AuthService.instance.isLoggedIn {
