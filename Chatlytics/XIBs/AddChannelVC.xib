@@ -43,10 +43,10 @@
                             <nil key="highlightedColor"/>
                         </label>
                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="VNO-vZ-5py">
-                            <rect key="frame" x="42" y="97" width="250" height="106"/>
+                            <rect key="frame" x="42" y="107" width="250" height="86"/>
                             <subviews>
-                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VAo-1k-s8F">
-                                    <rect key="frame" x="0.0" y="0.0" width="250" height="30"/>
+                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VAo-1k-s8F">
+                                    <rect key="frame" x="0.0" y="0.0" width="250" height="20"/>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     <constraints>
                                         <constraint firstAttribute="width" constant="250" id="nKF-c9-Mnl"/>
@@ -56,15 +56,15 @@
                                     <textInputTraits key="textInputTraits"/>
                                 </textField>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xyx-23-hFF">
-                                    <rect key="frame" x="0.0" y="44" width="250" height="2"/>
+                                    <rect key="frame" x="0.0" y="34" width="250" height="2"/>
                                     <color key="backgroundColor" red="0.35686274509999999" green="0.62352941179999999" blue="0.79607843140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="2" id="Gx6-dM-lvp"/>
                                         <constraint firstAttribute="width" constant="250" id="MeI-PB-Xgb"/>
                                     </constraints>
                                 </view>
-                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="description" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0VY-Bx-BeW">
-                                    <rect key="frame" x="0.0" y="60" width="250" height="30"/>
+                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="description" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0VY-Bx-BeW">
+                                    <rect key="frame" x="0.0" y="50" width="250" height="20"/>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     <constraints>
                                         <constraint firstAttribute="width" constant="250" id="nNG-7q-WrD"/>
@@ -74,7 +74,7 @@
                                     <textInputTraits key="textInputTraits"/>
                                 </textField>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T0r-xe-yLy">
-                                    <rect key="frame" x="0.0" y="104" width="250" height="2"/>
+                                    <rect key="frame" x="0.0" y="84" width="250" height="2"/>
                                     <color key="backgroundColor" red="0.35686274509999999" green="0.62352941179999999" blue="0.79607843140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="width" constant="250" id="an3-f4-TFD"/>

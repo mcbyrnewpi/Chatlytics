@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C22A71B204F258200CA2553 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C22A71A204F258200CA2553 /* Message.swift */; };
+		1C22A71D204F309700CA2553 /* KeyboardBoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C22A71C204F309700CA2553 /* KeyboardBoundView.swift */; };
+		1C22A71F204F42C200CA2553 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C22A71E204F42C200CA2553 /* MessageCell.swift */; };
 		1C836D312033366500E2BB3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C836D302033366500E2BB3B /* AppDelegate.swift */; };
 		1C836D362033366500E2BB3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C836D342033366500E2BB3B /* Main.storyboard */; };
 		1C836D382033366500E2BB3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C836D372033366500E2BB3B /* Assets.xcassets */; };
@@ -31,10 +34,14 @@
 		1C836D6E2045E1BF00E2BB3B /* ChannelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C836D6D2045E1BF00E2BB3B /* ChannelCell.swift */; };
 		1C836D712045EAC000E2BB3B /* AddChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C836D6F2045EAC000E2BB3B /* AddChannelVC.swift */; };
 		1C836D722045EAC000E2BB3B /* AddChannelVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C836D702045EAC000E2BB3B /* AddChannelVC.xib */; };
+		1C836D742047141E00E2BB3B /* SocketService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C836D732047141E00E2BB3B /* SocketService.swift */; };
 		277499E9E117F50D5B9572DF /* Pods_Chatlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BB433E085180833B1F476B3 /* Pods_Chatlytics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C22A71A204F258200CA2553 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		1C22A71C204F309700CA2553 /* KeyboardBoundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardBoundView.swift; sourceTree = "<group>"; };
+		1C22A71E204F42C200CA2553 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		1C836D2D2033366500E2BB3B /* Chatlytics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chatlytics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C836D302033366500E2BB3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1C836D352033366500E2BB3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -63,6 +70,7 @@
 		1C836D6D2045E1BF00E2BB3B /* ChannelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelCell.swift; sourceTree = "<group>"; };
 		1C836D6F2045EAC000E2BB3B /* AddChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddChannelVC.swift; sourceTree = "<group>"; };
 		1C836D702045EAC000E2BB3B /* AddChannelVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddChannelVC.xib; sourceTree = "<group>"; };
+		1C836D732047141E00E2BB3B /* SocketService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketService.swift; sourceTree = "<group>"; };
 		9BB433E085180833B1F476B3 /* Pods_Chatlytics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chatlytics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3D5CF35BA5D81A7388A2FA6 /* Pods-Chatlytics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chatlytics.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Chatlytics/Pods-Chatlytics.debug.xcconfig"; sourceTree = "<group>"; };
 		DA9EF29DCBB0B10F029B881B /* Pods-Chatlytics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chatlytics.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chatlytics/Pods-Chatlytics.release.xcconfig"; sourceTree = "<group>"; };
@@ -131,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				1C836D6B2045D9D300E2BB3B /* Channel.swift */,
+				1C22A71A204F258200CA2553 /* Message.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -143,6 +152,8 @@
 				1C836D62203F30DD00E2BB3B /* CircleImage.swift */,
 				1C836D4E2033647700E2BB3B /* GradientView.swift */,
 				1C836D5A20362CD800E2BB3B /* RoundedButton.swift */,
+				1C22A71C204F309700CA2553 /* KeyboardBoundView.swift */,
+				1C22A71E204F42C200CA2553 /* MessageCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -174,6 +185,7 @@
 			children = (
 				1C836D582034DB9D00E2BB3B /* AuthService.swift */,
 				1C836D692045D95E00E2BB3B /* MessageService.swift */,
+				1C836D732047141E00E2BB3B /* SocketService.swift */,
 				1C836D5C2037814A00E2BB3B /* UserDataService.swift */,
 			);
 			path = Services;
@@ -343,11 +355,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C22A71D204F309700CA2553 /* KeyboardBoundView.swift in Sources */,
+				1C836D742047141E00E2BB3B /* SocketService.swift in Sources */,
 				1C836D6620407C5500E2BB3B /* ProfileVC.swift in Sources */,
 				1C836D6E2045E1BF00E2BB3B /* ChannelCell.swift in Sources */,
 				1C836D4D203342D400E2BB3B /* ChannelVC.swift in Sources */,
 				1C836D5F203DE53B00E2BB3B /* AvatarPickerVC.swift in Sources */,
+				1C22A71F204F42C200CA2553 /* MessageCell.swift in Sources */,
 				1C836D5B20362CD800E2BB3B /* RoundedButton.swift in Sources */,
+				1C22A71B204F258200CA2553 /* Message.swift in Sources */,
 				1C836D6C2045D9D300E2BB3B /* Channel.swift in Sources */,
 				1C836D63203F30DD00E2BB3B /* CircleImage.swift in Sources */,
 				1C836D6A2045D95E00E2BB3B /* MessageService.swift in Sources */,
